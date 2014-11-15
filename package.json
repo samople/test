@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test ====",
+  "main": "index.js",
+  "scripts": {
+    "test": "curl -s >/dev/null 'http://krakow.nsk2014.pl/voting-551' -H 'Cookie: _gat=1; hide=bnNrMjAxNA%3D%3D; _ga=GA1.2.729382551.1415391800' -H 'Origin: http://krakow.nsk2014.pl' -H 'Accept-Encoding: gzip,deflate' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Cache-Control: max-age=0' -H 'Referer: http://krakow.nsk2014.pl/voting-551' -H 'Connection: keep-alive' --data 'vote=1'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samople/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samople/test/issues"
+  },
+  "homepage": "https://github.com/samople/test"
+}
